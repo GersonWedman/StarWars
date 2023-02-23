@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-
     "npm start": "ng serve",
-    "start":"json-server --watch db.json",
+    "start": "json-server --watch C:/Users/gerso/OneDrive/PAI/Desktop/SENAI/ANGULAR/StarWars/src/servidor/data/db.json",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
