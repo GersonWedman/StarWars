@@ -12,14 +12,15 @@ import { HttpClient } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    StarWarsComponent
+    StarWarsComponent,
+
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

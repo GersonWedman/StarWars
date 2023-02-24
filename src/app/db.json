@@ -1,0 +1,14 @@
+{
+    "funcionarios":[
+        {"id":1, "nome":"Eduardo 1", "departamento":"RH" },
+        {"id":2, "nome":"Elisa 2", "departamento":"TI" },
+        {"id":3, "nome":"Eliseu 3", "departamento":"Infra" },
+        {"id":4, "nome":"Alfredo 4", "departamento":"Comercial" },
+        {"id":5, "nome":"Camila 5", "departamento":"Gestão Recursos" },
+        {"id":6, "nome":"Tatiana 6", "departamento":"Financeiro" },
+        {"id":7, "nome":"Edward 7", "departamento":"Crédito" },
+        {"id":8, "nome":"Fred Kruger 8", "departamento":"Comercial" }
+
+    ]
+
+}
