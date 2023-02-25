@@ -1,6 +1,6 @@
-export interface StarWars {
+export interface IPersonagem {
 
-    id:number,
+    id?:number,
     nome:string,
     habilidade:string,
     planeta:string,
