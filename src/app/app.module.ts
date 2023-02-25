@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {StarWarsComponent} from '../components/star-wars/star-wars.component';
+import {StarWarsComponent} from './star-wars/star-wars.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
 
@@ -13,12 +13,12 @@ import { HttpClient } from '@angular/common/http';
   declarations: [
     AppComponent,
     StarWarsComponent,
-
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]
