@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { API_PATH } from '../environments/environments'
 import { PersonagemClass } from './personagem-class';
+import { IPersonagem } from './star-wars';
 
 @Injectable({
   providedIn: 'root'
@@ -20,4 +21,11 @@ export class PersonagensStarWarsService {
     return this._httpClient.get<PersonagemClass[]>(`${API_PATH}`);
    
   }
+
+
+//VERIFICAR COMO CORRIGIR ESTE CÓDIGO
+  // public getPersonagemInterface(): Promise<IPersonagem[]> {
+  //   return this._httpClient.get<IPersonagem[]>(`${API_PATH}`).toPromise();
+  // }
+
 }

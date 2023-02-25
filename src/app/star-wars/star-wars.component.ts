@@ -15,8 +15,12 @@ export class StarWarsComponent implements OnInit{
   
   ngOnInit(): void {
     this._service.getPersonagens().subscribe(
+      //res = resultado, irá receber o resultado do método getPersonagem criado no serviço
       (res) => {
-        this.personagens = res
+        console.log(res);
+        this.personagens = res;
+        //teste de funcionamento
+        console.log(this.personagens)
       }
     )
   }
