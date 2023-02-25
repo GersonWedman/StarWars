@@ -17,7 +17,7 @@ export class PersonagensStarWarsService {
 
   public getPersonagens(): Observable<PersonagemClass[]>{
 
-    return this._httpClient.get<PersonagemClass[]>(`${API_PATH}`)
+    return this._httpClient.get<PersonagemClass[]>(`${API_PATH}`);
    
   }
 }
