@@ -14,5 +14,8 @@ export class PersonagemService {
 
   public getPersonagens(): Observable<Personagem[]> {
     return this._httpCliente.get<Personagem[]>(this.url);
+    
+  
+  
   }
 }
